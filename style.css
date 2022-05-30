@@ -1,0 +1,281 @@
+body,ul,li,p {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+h1 {
+    text-align:center;
+    margin-top: 100px;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+
+.nav ul{
+    position:relative;
+    background: gray;
+    margin:0px;
+    padding: 0px;
+}
+
+.nav ul li{
+    display:inline-block;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display:block;
+}
+
+.nav ul li:hover{
+    background: lightgrey;
+}
+
+.nav ul ul{
+    position: absolute;
+    min-width: 200px;
+    display:none;
+    background: lightgrey;
+}
+
+.nav ul ul li{
+    display: block;
+    background: lightgrey;
+}
+
+.nav ul li:hover ul{
+    display:block
+}
+
+
+
+.bglogin{
+    background-image: url("imagens/fundo-login.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:60px;
+    background-attachment: fixed;
+}
+
+.bgcadastro{
+    background-image: url("imagens/fundo-ccadastro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top:60px;
+    background-attachment: fixed;
+}
+
+
+.btn{
+    border:none;
+    padding: 10px ;
+    cursor:pointer;
+    border-radius: 5px;
+}
+
+.btn-success{
+    background-color: rgb(97, 97, 97);
+    color:white;
+}
+.btn-success:hover{
+    background-color: darkgray;
+}
+
+
+.btn-tabela{
+    position:relative;
+    text-align: center;
+    color: black;
+}
+
+.centro {
+	background-color: cyan;
+	border-color: white;
+	height: 470px;
+	width: 450px;
+	position: fixed;
+	top: 50px;
+	bottom: 0px;
+	left: 0px;
+	right: 800px;
+	margin: auto;
+    border-radius: 5%;
+    border:solid cyan 2px;
+}
+
+.texto{
+    text-align: left;
+    position:relative;
+    margin:65px;
+}
+
+.textoconclusão{
+    text-align: left;
+    position:relative;
+    margin:25%;
+}
+
+.textoanuncio{
+    position:relative;
+    text-align: left;
+    top: 0%; 
+}
+
+.palhetaanuncio{
+    align-items: center;
+}
+
+#caixa {
+    
+	background-color:white;
+	border-radius:10px;
+	height:30px;
+	border:solid 2px;
+}
+
+#caixa:focus {
+	font-size:medium;
+	font-family:arial;
+	background-color:yellow;
+	color:blue;
+	box-shadow: 0 0 30px green;
+	}
+	
+	
+#botao {
+	border-radius:30px;
+	font-size:medium;
+	font-family:arial;
+	background-color:red;
+	color:blue;
+	box-shadow: 0 0 30px green;
+	}
+	
+#botao:hover {
+	font-size:xx-large;
+	border-radius:30px;
+	font-family:arial;
+	background-color:red;
+	color:white;
+	box-shadow: 0 0 30px green;
+	}
+
+
+
+.banner {
+    position: relative;
+    left: 25%;
+}
+.flex {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+
+.flex > div {
+    flex: 1 1 200px;
+    margin:10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgb(97, 97, 97);
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display:block;
+    padding:10px;
+}
+
+#menu a:hover{
+    background-color: lightslategray;
+    color:white;
+}
+
+
+
+
+
+
+
+
+
+/*painel flutuante*/
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}

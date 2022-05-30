@@ -1,0 +1,53 @@
+<html>
+<!--colocando o t�tulo da p�gina-->
+<head>
+	<title>Aula 02 - Programação Web</title>
+    <link rel= "stylesheet" href="./style.css">
+</head>
+
+<!--corpo da pagina-->
+
+<body class="bgcadastro" text="white">
+    
+    <header class="header">
+        <a href="index.html" target= "selecao"> <img src="imagens/logo.png" height="50px" width="200px"></a>
+        <ul class="menu">
+            <li><a href="login.html" target= "selecao" class="btn btn-success"> Login </a></li>
+        </ul>
+    </header>
+
+
+    <div class="centro">
+        
+        <form name="frm_cadastro">
+            <div class="texto">
+            <b><u><h2>CADASTRO DE CLIENTE</h2></u>                                      									     
+            Email:                                                              
+            <input type= 'text' size = '30' maxlength = '60' required  = 'yes'>
+            Nome:                                                             
+            <input type= 'text' size = '30' maxlength = '60' required  = 'yes'>               
+            <p>                                                                   			 
+            Senha:
+            <input type="password" size='29'  maxlength = '20'>
+            <p>
+            repita senha:
+            <input type="password" size='21'  maxlength = '20'>
+            <p>
+            <p>
+            sexo: <br>
+            <input type='radio' name='sexo'>Masculino <br>
+            <input type='radio' name='sexo'>Feminino  <br>
+            <input type='radio' name='sexo'>Não definido <br>
+            <p>
+            selecione a idade:
+            <input type='number' min='10' max='100'> &nbsp;&nbsp; <br>
+            <p>
+                           
+            </div>
+            <center>
+                <li><a href="confirmar.html" target= "selecao" class="btn btn-success"> enviar </a></li>
+            </center>
+            </form>
+    </div>
+</body>
+</html>	
